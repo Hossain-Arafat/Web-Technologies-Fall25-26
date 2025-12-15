@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <form action="scnd.php" method="post">
+    <table>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>General Information</legend>
+                    <label for="fname"><b>First Name :</b></label>
+                    <input type="text" name="fname" id="fname"><br><br>
+                    <label for="lname"><b>Last Name :</b> </label>
+                    <input type="text" name="lname" id="lname"><br><br>
+                    <label for="gender"><b>Gender : </b></label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="female">Female</label><br><br>
+                    <label for="faname"><b>Father's Name :</b> </label>
+                    <input type="text" name="faname" id="faname"><br><br>
+                    <label for="maname"><b>Mother's Name :</b> </label>
+                    <input type="text" name="maname" id="maname"><br><br>
+                    <label for="bg"><b>Blood Group :</b> </label>
+                    <select name="bg" id="bg">
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                    </select><br><br>
+                    <label for="religion"><b>Religion :</b> </label>
+                    <select name="religion" id="religion">
+                        <option>Islam</option>
+                        <option>Christian</option>
+                        <option>Hindu</option>
+                        <option>Buddhist</option>
+                    </select><br><br>
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="email"><b>Email:</b></label>
+                    <input type="text" name="email" id="email"><br><br>
+                    <label for="phone"><b>Phone/Mobile :</b></label>
+                    <input type="text" name="phone" id="phone"><br><br>
+                    <label for="website"><b>Website :</b></label>
+                    <input type="text" name="website" id="website"><br><br>
+                    <label for="address"><b>Present Address:</b></label><br>
+                    <select name="country" id="country">
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Pakistan</option>
+                        <option>Bhutan</option>
+                        <option>Indonesia</option>
+                        <option>Sri Lanka</option>
+                        <option>Afghanistan</option>
+                    </select>
+                    <select name="city" id="city">
+                        <option>Dhaka</option>
+                        <option>Chittagong</option>
+                        <option>Barisal</option>
+                        <option>Maymensingh</option>
+                        <option>Sylhet</option>
+                        <option>Rangpur</option>
+                        <option>Khulna</option>
+                        <option>Jessore</option>
+                    </select><br><br>
+                    <label for="address2"><b>Address:</b></label>
+                    <textarea name="address2" id="address2" rows="5" placeholder="road/steet/city"></textarea><br><br>
+                    <input type="text" name="postalcode" id="postalcode" placeholder="Post Code">
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Account Information</legend>
+                    <label for="uname"><b>Username: </b></label>
+                    <input type="text" name="uname" id="uname">
+                    <br><br>
+                    <label for="password"><b>Password: </b></label>
+                    <input type="text" name="password" id="password"><br><br>
+                    <label for="cpassword"><b>Confirm Password: </b></label>
+                    <input type="text" name="cpassword" id="cpassword"><br>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
